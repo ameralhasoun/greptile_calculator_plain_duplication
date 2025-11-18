@@ -1,10 +1,7 @@
-namespace Example
+public class Calculator
 {
-    public class Calculator
+    public int AddNumbers(int a, int b)
     {
-        public int AddNumbers(int a, int b)
-        {
-            return a + b;
-        }
+        return a + b;
     }
 }
